@@ -27,7 +27,7 @@ app.use("/api/articles", require("../routes/articleRoutes"));
 mongoose.connection.once("open", () => {
   console.log("Connected to MongoDB");
   app.listen(PORT, () => {
-    console.log(Server running on port ${PORT});
+    console.log('Server running on port ${PORT}');
   });
 });
 
