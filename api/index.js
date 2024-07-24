@@ -8,7 +8,7 @@ const cors = require('cors');
 
 // Apply CORS middleware first
 app.use(cors({
-  origin: 'https://frontend-git-main-piyushs-projects-0a22a4d7.vercel.app',
+  origin: 'https://frontend-beige-rho.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
